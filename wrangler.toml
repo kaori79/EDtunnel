@@ -1,14 +1,14 @@
-name = "tencent"
+name = "amazon"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 [[routes]]
-pattern = "sg.ikeh.web.id"
+pattern = "kimochi.ikeh.web.id"
 custom_domain = true
 
 [vars]
-PROXYIP = "43.128.95.84:38091"
-UUID = "8963674b-d4b5-4cdb-ab7d-a238fa113136"
+PROXYIP = "43.218.77.16:1443"
+UUID = "1d20e972-51f9-47d5-9618-fc088b7f0dbb"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
